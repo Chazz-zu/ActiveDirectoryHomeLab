@@ -4,11 +4,10 @@
 In this project, I used VMware Workstation to install Windows Server 2022. The process included creating a new virtual machine, configuring the necessary hardware settings, and mounting the Windows Server 2022 ISO file. Following the installation prompts, I successfully set up a fully functional Windows Server environment. This virtual server is ideal for testing, learning, and development purposes, providing a robust platform to explore Windows Server capabilities.
 <br />
 
-
 <h2>Languages and Utilities Used</h2>
 
-- <b>Windows Server 2022</b> 
-- <b>VMware Workstation</b>
+- <b>Windows Server 2022</b> [Download]: https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
+- <b>VMware Workstation</b> [Download]: https://knowledge.broadcom.com/external/article?articleNumber=368667
 
 <h2>Environments Used </h2>
 
@@ -17,33 +16,33 @@ In this project, I used VMware Workstation to install Windows Server 2022. The p
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Lets download the VMware Workstation Pro for Persornal use. Lets Download the Latest Version of this one: <br/>
+<img src="https://i.imgur.com/LGPn4ZY.png" height="80%" width="80%" alt="VMware Download"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Lets download the Windows server 2022 ISO English version and 64 bit edition: <br/>
+<img src="https://i.imgur.com/WCWxrIw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Install the VMware Workstation by clicking net until it installs. <br/>
+<img src="https://i.imgur.com/yhHPF00.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now we will first create an Virtual Machine by clicking Create new Virtual Machine, in the second part make sure that we will select this one <br/>
+As we will put the ISO later on when we finished creating this virtual machine.
+<img src="https://i.imgur.com/PRBEh3I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Right click the Windows server 2022 and then go to CD/DVD SATA. Click the use ISO image file and select the one you downloaded earlier.  <br/>
+The ISO of Windows Server 2022
+<img src="https://i.imgur.com/yrYek1R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now we can click Power on this Virtual Machine.  <br/>
+<img src="https://i.imgur.com/oRtdrqN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 
 <!--
  ```diff
